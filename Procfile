@@ -1,1 +1,1 @@
-web: gunicorn enroll.wsgi
+web: gunicorn cusd.wsgi
