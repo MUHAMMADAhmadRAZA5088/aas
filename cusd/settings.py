@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 import os
-import django_heroku
+
 
 
 from pathlib import Path
@@ -132,4 +132,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 #Activate Django-Heroku
-django_heroku.settings(locals())
+
